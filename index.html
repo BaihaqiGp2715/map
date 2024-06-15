@@ -10,8 +10,18 @@
       }
       img {
         width: 100%;
+        display: block; /* Memastikan gambar menjadi blok penuh */
+        height: auto; /* Memastikan gambar menyesuaikan tinggi secara proporsional */
+      }
+    
+      /* Media query untuk handphone */
+      @media (max-width: 768px) {
+        img {
+          margin-bottom: -5px; /* Menghilangkan margin bawah pada handphone */
+        }
       }
     </style>
+    
   </head>
   <body>
     <!-- gambar -->
